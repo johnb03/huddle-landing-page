@@ -1,0 +1,144 @@
+:root {
+  --background-body: rgb(103, 75, 175);
+  --header-background: hsl(300, 69%, 71%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90vw;
+
+  font-family: "Open Sans", sans-serif;
+  background: var(--background-body);
+  margin: 0;
+  overflow: hidden;
+}
+
+.header_logo,
+.section_box,
+.section_svg {
+  position: absolute;
+}
+
+.header {
+  position: relative;
+
+  margin: 0;
+}
+
+.header_logo {
+  top: 0;
+  margin: 2.5em 0 3em 5.6em;
+}
+
+.section_box {
+  width: 33em;
+  top: 16em;
+  left: 50%;
+  margin-left: 2em;
+  text-align: left;
+}
+
+.section_text--1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #f1f1f1;
+  margin: 0;
+}
+
+.section_text--1,
+.header_buttom {
+  font-family: "Poppins", sans-serif;
+}
+
+.section_text--2 {
+  width: 32em;
+  color: #d6d3d3;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+
+.header_buttom {
+  width: 200px;
+  height: 50px;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--background-body);
+  font-weight: 400;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* hover buttom */
+.header_buttom:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+/* hover end */
+
+.section_svg {
+  top: 13em;
+  margin-left: 6em;
+}
+
+footer {
+  width: 100%;
+  height: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0.5em;
+}
+
+.attribution {
+  color: #f1f1f1;
+  font-size: 1em;
+  margin-left: 3em;
+}
+
+.footer_social {
+  margin: 0 10em 3em 0;
+}
+
+.icon_svg {
+  padding: 0 1em 0 0;
+  width: 3em;
+  height: 3em;
+  fill: #f1f1f1;
+}
+
+a:hover {
+  text-decoration: none;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+.att_a:hover {
+  color: #d6d3d3;
+}
